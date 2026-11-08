@@ -18,8 +18,7 @@ Rygaard et al. [2]. **No new simulation or fit**: every number is taken from the
 4. What was learned (seven lessons); 4a. the failed Wilks validation of v1.5 and what it changed
 5. What a toy can and cannot say
 6. Six open questions where full or fast simulation could help
-7. Related work: next-generation low-material trackers (HL-LHC CMS Phase-2 and ATLAS ITk, ALICE ITS3, ALICE 3, FCC-ee, FCC-SEED)
-7a. Six toy-level suggestions for HL-LHC and FCC-ee tracker studies (for discussion, not design recommendations)
+7. Related work: next-generation low-material trackers (HL-LHC CMS Phase-2 and ATLAS ITk, ALICE ITS3, ALICE 3, FCC-ee, FCC-SEED); 7a. six toy-level suggestions for HL-LHC and FCC-ee tracker studies (for discussion, not design recommendations)
 8. Future directions (material veto, dimuon control study, μ⁺μ⁻ above 200 MeV, ALPs from B-meson decays, other long-lived-particle signatures, a lepton-collider geometry)
 9. Limitations, 10. Records, references (30)
 
@@ -41,22 +40,25 @@ Rygaard et al. [2]. **No new simulation or fit**: every number is taken from the
 
 ## Toy-level suggestions for tracker studies (§7a, for discussion)
 
-S1. Add a displaced, collimated e⁺e⁻ benchmark to layout studies (light ALPs decay mostly at 0.1–0.8 m).
-S2. Count material where displaced vertices occur, not only in front of the first layer.
-S3. Consider coarse z information in the outer tracker.
-S4. Treat the material veto (material map, 3D or likelihood tag) as part of the design.
-S5. For sub-mrad openings, material reduction may matter more than electron-fit sophistication.
-S6. Calibrate conversion-versus-decay discriminants before fixing thresholds.
+- **S1.** Add a displaced, collimated e⁺e⁻ benchmark to layout studies (light ALPs decay mostly at 0.1–0.8 m).
+- **S2.** Count material where displaced vertices occur, not only in front of the first layer.
+- **S3.** Consider coarse z information in the outer tracker.
+- **S4.** Treat the material veto (material map, 3D or likelihood tag) as part of the design.
+- **S5.** For sub-mrad openings, material reduction may matter more than electron-fit sophistication.
+- **S6.** Calibrate conversion-versus-decay discriminants before fixing thresholds.
 
 These need confirmation with full simulation of a real geometry; the toy cannot weigh them against flavour tagging,
 cost or other design drivers.
 
 ## Future directions (each under a public preregistration)
 
-1. The material veto itself (v1.10). 2. Dimuon control study. 3. μ⁺μ⁻ above 200 MeV. 4. ALPs from B-meson decays
-(B → K⁽*⁾a). 5. Other long-lived-particle signatures with displaced lepton pairs (dark photons, heavy neutral leptons,
-Higgs-portal scalars). 6. A lepton-collider (FCC-ee-like) toy geometry. 7. Joint 3D fit, Gaussian-sum filter,
-calibrated test statistics.
+1. The material veto itself (v1.10).
+2. Dimuon control study.
+3. μ⁺μ⁻ above 200 MeV.
+4. ALPs from B-meson decays (B → K⁽*⁾a).
+5. Other long-lived-particle signatures with displaced lepton pairs (dark photons, heavy neutral leptons, Higgs-portal scalars).
+6. A lepton-collider (FCC-ee-like) toy geometry.
+7. Joint 3D fit, Gaussian-sum filter, calibrated test statistics.
 
 ## Files
 
